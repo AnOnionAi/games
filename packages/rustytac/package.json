@@ -1,0 +1,12 @@
+{
+	"name": "rustytac",
+	"version": "0.1.0",
+	"files": [
+		"rustytac_bg.wasm",
+		"rustytac.js",
+		"rustytac.d.ts"
+	],
+	"module": "rustytac.js",
+	"types": "rustytac.d.ts",
+	"sideEffects": false
+}

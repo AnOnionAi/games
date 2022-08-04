@@ -1,0 +1,12 @@
+{
+	"name": "gym-chess",
+	"version": "0.2.0",
+	"files": [
+		"gym_chess_bg.wasm",
+		"gym_chess.js",
+		"gym_chess.d.ts"
+	],
+	"module": "gym_chess.js",
+	"types": "gym_chess.d.ts",
+	"sideEffects": false
+}
