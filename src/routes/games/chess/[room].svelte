@@ -1,9 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import { user } from '$lib/stores/user';
+	//import { user } from '$lib/stores/user';
 	import { onMount } from 'svelte';
 	import { chatGame } from '$lib/observables/chat';
-	import { createMessageGame } from '$lib/firebase/firestore/chat';
 	import { onDestroy } from 'svelte';
 	import ChessPerson from '$lib/components/playground/ChessPerson.svelte';
 

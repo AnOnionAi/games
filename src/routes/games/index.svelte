@@ -2,9 +2,9 @@
 	import Invitations from '$lib/components/playground/Invitations.svelte';
 	import Turns from '$lib/components/playground/Turns.svelte';
 
-	import { _ } from 'svelte-intl-precompile';
+	//import { _ } from 'svelte-intl-precompile';
 
-	import { user } from '$lib/stores/user';
+	//import { user } from '$lib/stores/user';
 
 	console.log($user);
 

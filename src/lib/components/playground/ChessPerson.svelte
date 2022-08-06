@@ -10,18 +10,18 @@
 	import { faHandshake } from '@fortawesome/free-regular-svg-icons';
 
 	import ChessBoard from '$lib/components/playground/ChessBoard.svelte';
-	import { user } from '$lib/stores/user';
-	import ChessEngine from '../../../routes/[...lang=langs]/playground/chess/chess_engine';
+	//import { user } from '$lib/stores/user';
+	import ChessEngine from '../../../routes/games/chess/chess_engine';
 	import { roomStatus } from '$lib/observables/chess';
 	import type {
 		DrawRequest,
 		GameRoom,
 		Players
 	} from '$lib/types/playground_interfaces';
-	import {
-		resetGame,
-		updateUserRecord
-	} from '$lib/firebase/firestore/playground';
+	//import {
+	//	resetGame,
+	//	updateUserRecord
+	//} from '$lib/firebase/firestore/playground';
 	import {
 		saveGame,
 		resign,

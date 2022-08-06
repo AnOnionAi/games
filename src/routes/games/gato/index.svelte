@@ -1,13 +1,13 @@
 <script>
 
 	import Icon from 'svelte-fa';
-	import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes.js';
-	import { faCircle } from '@fortawesome/free-regular-svg-icons/faCircle.js';
+	import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
+	import { faCircle } from '@fortawesome/free-regular-svg-icons';
 	import { onMount } from 'svelte';
 
-	import { darkMode } from '$lib/stores/storeDark';
+	//import { darkMode } from '$lib/stores/storeDark';
 	import init, { TicTacToe } from 'rustytac';
-	import { playTicTacToe } from '$lib/services/destino';
+	///import { playTicTacToe } from '$lib/services/';
 
 	let tictactoe;
 	let board = [

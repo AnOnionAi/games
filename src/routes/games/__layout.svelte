@@ -1,5 +1,5 @@
 <script context="module">
-	import { user } from '$lib/stores/user';
+	//import { user } from '$lib/stores/user';
 
 	export async function load({ session }) {
 		const _user = session?.user;

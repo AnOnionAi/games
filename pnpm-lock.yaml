@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@fontsource/fira-mono': ^4.5.0
+  '@fortawesome/free-regular-svg-icons': ^6.1.2
   '@fortawesome/free-solid-svg-icons': ^6.1.2
   '@playwright/test': ^1.22.2
   '@sveltejs/adapter-auto': next
@@ -30,6 +31,7 @@ specifiers:
 
 dependencies:
   '@fontsource/fira-mono': 4.5.8
+  '@fortawesome/free-regular-svg-icons': 6.1.2
   '@fortawesome/free-solid-svg-icons': 6.1.2
   chess: file:packages/chess
   cm-chessboard: 3.18.3
@@ -573,6 +575,14 @@ packages:
     resolution: {integrity: sha512-wBaAPGz1Awxg05e0PBRkDRuTsy4B3dpBm+zreTTyd9TH4uUM27cAL4xWyWR0rLJCrRwzVsQ4hF3FvM6rqydKPA==}
     engines: {node: '>=6'}
     requiresBuild: true
+    dev: false
+
+  /@fortawesome/free-regular-svg-icons/6.1.2:
+    resolution: {integrity: sha512-xR4hA+tAwsaTHGfb+25H1gVU/aJ0Rzu+xIUfnyrhaL13yNQ7TWiI2RvzniAaB+VGHDU2a+Pk96Ve+pkN3/+TTQ==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.1.2
     dev: false
 
   /@fortawesome/free-solid-svg-icons/6.1.2:

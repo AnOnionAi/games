@@ -9,7 +9,7 @@
 
 	import { onMount } from 'svelte';
 	import type { State } from '$lib/types/chess';
-	import ChessEngine from '../../../routes/[...lang=langs]/playground/chess/chess_engine';
+	import ChessEngine from '../../../routes/games/chess/chess_engine';
 
 	export let engine: ChessEngine;
 	export let board;

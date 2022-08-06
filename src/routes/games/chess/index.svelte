@@ -3,12 +3,12 @@
 
 	import Icon from 'svelte-fa';
 
-	import { user } from '$lib/stores/user';
+	//import { user } from '$lib/stores/user';
 
 	import ChessRandom from '$lib/components/playground/ChessRandom.svelte';
 	import SpanError from '$lib/components/ui/SpanError.svelte';
 	import Spinner from '$lib/components/ui/Spinner.svelte';
-	import { createInvitation } from '$lib/firebase/firestore/playground';
+	//import { createInvitation } from '$lib/firebase/firestore/playground';
 
 	let friendEmail = '';
 	let invitationSent = false;
