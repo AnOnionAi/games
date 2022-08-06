@@ -8,5 +8,6 @@
 	],
 	"module": "gym_chess.js",
 	"types": "gym_chess.d.ts",
-	"sideEffects": false
+	"sideEffects": false,
+	"type": "module"
 }
