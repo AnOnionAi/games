@@ -37,7 +37,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.1.2",
 		"@fortawesome/free-regular-svg-icons": "^6.1.2",
 		"chess": "file:packages/chess",
-		"cm-chessboard": "^4.5.5",
+		"cm-chessboard": "^5.0.1",
 		"cookie": "^0.4.1",
 		"firebase": "^9.9.1",
 		"rustytac": "file:packages/rustytac",
